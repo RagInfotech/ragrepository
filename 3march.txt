@@ -1,5 +1,9 @@
+
+****************************************
+This is a version 1.2
+****************************************
 qtype13_option1
-quick brown fox
+
 //alert($(".qtype12chkbox:checked").length);
 			if($(".qtype12chkbox:checked").length < 2)
 			{ alert("please select at least 2 checkbox");}
