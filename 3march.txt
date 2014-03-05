@@ -1,5 +1,5 @@
 qtype13_option1
-fdsfs
+quick brown fox
 //alert($(".qtype12chkbox:checked").length);
 			if($(".qtype12chkbox:checked").length < 2)
 			{ alert("please select at least 2 checkbox");}
