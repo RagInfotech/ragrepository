@@ -1,0 +1,53 @@
+qtype13_option1
+fdsfs
+//alert($(".qtype12chkbox:checked").length);
+			if($(".qtype12chkbox:checked").length < 2)
+			{ alert("please select at least 2 checkbox");}
+			else
+			{ alert("submit");}
+**************************************************
+http://www.rediff.com/getahead/slide-show/slide-show-1-how-to-make-money-in-stock-market-trading/20140304.htm
+**************************************************
+/*alert("leng: "+$(".qtype12chkbox:checked").attr("id"));*/
+                var chkbox_len = $(".qtype12chkbox:checked").length;
+                chkbox_len++;
+            
+                for (var i=1;i < chkbox_len;i++)                
+                {	
+                	var tt= "t"+i;	
+                    alert($("#rt"+i).is('checked'));		
+					if($("#rt"+i+":checked")==true)
+					{	 alert($("#rt"+i+":checked").val());
+						tt=$("#rt"+i+":checked").val();
+                        cans+=tt+',';
+						temp++;
+					}
+					else
+					{
+						tt=0;
+					} 
+                    
+                 }
+
+***************************************************
+<script type="text/javascript"> 
+  $(document).ready(function(){ 
+    $("#isCheck").click(function () { 
+	alert($('input:checkbox[name=checkme]').is(':checked'));   });
+ 
+    $("#checkIt").click(function () {
+	$('input:checkbox[name=checkme]').attr('checked',true);    });
+ 
+    $("#UnCheckIt").click(function () {
+	$('input:checkbox[name=checkme]').attr('checked',false);    });	 
+  });
+<input type="checkbox" name="checkme">Check Me</input>
+ 
+<input type='button' value='Is Check' id='isCheck'>
+<input type='button' value='Check It' id='checkIt'>
+<input type='button' value='UnCheck It' id='UnCheckIt'>
+
+
+if( $('.qtype12chkbox').length<2))
+
+qtype12_option1
